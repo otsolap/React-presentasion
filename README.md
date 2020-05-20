@@ -1,6 +1,7 @@
 Simple React-portfolio page based off from Garret Love's template.
 
-
+Firebase hosting:
+https://react-app-ode.web.app/
 
 Special thanks:
 - Margit Tennosaar
