@@ -1,74 +1,68 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-
 .o-card {
-  margin: 20px;
+	margin: 20px;
 }
 
 .o-card-img {
-  border-radius: 10px;
-  width: auto;
-  height: 480px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+	border-radius: 1rem;
+	width: auto;
+	height: 400px;
+	box-shadow: 0px 0px 3px 1px #ccc;
 }
 
 .o-thumb-img {
-  border-radius: 10px;
-  width: auto;;
-  height: 700px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+	border-radius: 1rem;
+	width: auto;
+	height: 400px;
+	box-shadow: 0px 0px 3px 1px #ccc;
 }
 
 .o-rev-img {
-  border-radius: 10px;
-  width: auto;
-  height: 480px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+	border-radius: 10px;
+	width: auto;
+	height: 480px;
+	box-shadow: 0px 0px 3px 1px #ccc;
 }
 
-
 .o-card-title {
-  font-size: 24px;
-  margin: 0px;
+	font-size: 24px;
+	margin: 0px;
 }
 
 .o-card-info {
-  margin-top: 10px;
-  min-height: 100px;
+	margin-top: 10px;
+	min-height: 100px;
 }
 
 .o-card-subtitle {
-  font-size: 16px;
-  margin: 0px;
+	font-size: 16px;
+	margin: 0px;
 }
 
 .success-msg {
-  color: #57A773;
-  padding: 10p 15px;
+	color: #57a773;
+	padding: 10p 15px;
 }
 
 .err-msg {
-  color: #EE6352;
-  padding: 10p 15px;
+	color: #ee6352;
+	padding: 10p 15px;
 }
 
 @media screen and (max-width: 500px) {
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-  
+	img {
+		width: 100%;
+		height: auto;
+	}
 }

@@ -7,14 +7,14 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 function Content(props) {
     return (
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
-        <Container fluid={true}>
-            <Row className="justify-content-center">
-                <Col md={8}>
-                    {props.children}
-                </Col>
-            </Row>
-        </Container>
-      </Jumbotron>
+            <Container fluid={true}>
+                <Row className="justify-content-center">
+                    <Col sm={8}>
+                        {props.children}
+                    </Col>
+                </Row>
+            </Container>
+        </Jumbotron>
     );
 
 }
