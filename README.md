@@ -1,3 +1,17 @@
+Simple React-portfolio page based off from Garret Love's template.
+
+Firebase hosting:
+https://react-app-ode.web.app/
+
+Special thanks:
+- Margit Tennosaar
+- Pham Hoang
+- Garrett Love.
+
+Garret Love's portfolio:
+https://github.com/garrettlove8/building-react-portfolio
+
+__________________________________________________________________________________________________
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
