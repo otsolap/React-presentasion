@@ -12,7 +12,7 @@ function Footer() {
                     Metsän Otus
                 </Col>
                 <Col className="p-0 d-flex justify-content-end" md={3}>
-                    Site made by Ode, Tennosaurus, Nana's human and Garrett Love.
+                    Site made by Ode, based off from design by Garrett Love.
                 </Col>
                 </Row>
             </Container>

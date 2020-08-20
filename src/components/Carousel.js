@@ -6,7 +6,6 @@ import Card from '../components/Card';
 
 import otso from '../assets/images/Otso.png';
 import metsanOtus from '../assets/images/MetsanOtus.png';
-import batman from '../assets/images/Batman.png';
 
 
 class Carousel extends React.Component {
@@ -20,7 +19,7 @@ class Carousel extends React.Component {
                     title: "Otso Lappalainen",
                     subTitle: "Professional profile.",
                     imgSrc: otso,
-                    link: 'https:www.linkedin.com/in/otsolap',
+                    link: 'https://www.linkedin.com/in/otsolap/',
                     selected: false
                 },
                 {
@@ -33,10 +32,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: "the Batman",
-                    subTitle: "Secret profile.",
-                    imgSrc: batman, 
-                    link: 'https://twitter.com/mattreevesLA',
+                    title: "Playlist of the Day",
+                    subTitle: "Playlist of the Day Application generates a playlist which catches your vibes in the day. We provide you a quick quiz to finalize music genre, from there, newly created playlist is available for you after you have logged in to Spotify.",
+                    imgSrc: 'https://source.unsplash.com/DBGwy7s3QY0',
+                    link: 'https://daily-playlist-frontend.herokuapp.com/',
                     selected: false
                 },
             ]

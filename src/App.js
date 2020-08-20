@@ -17,7 +17,7 @@ class App extends React.Component {
 constructor(props) {
   super(props);
   this.state = {
-    title: "Metsän Otus",
+    title: "Otso",
     headerLinks: [
       { title: 'Home', path: '/'},
       { title: 'About', path: '/about'},
@@ -30,7 +30,7 @@ constructor(props) {
     text: "On movies, games, books and comic books."
     },
     about: {
-      title: "About Metsän Otus"
+      title: "About Ode"
       },
       reviews: {
         title: "Reviews"
@@ -48,7 +48,7 @@ render() {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Metsän Otus</Navbar.Brand>
+            <Navbar.Brand>Otso</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
